@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+</head>
+<body>
+    <form >
+        <label for="Adress">Adress</label>
+        <input type="text" name="Adress" id="adress" placeholder="Adress" size="30px" maxlength="100" > <br>
+        <label for="Postcode">Postcode</label>
+        <input type="text" name="Postcode" id="postcode" placeholder="Postcode" size="30px" maxlength="100" > <br>
+        <label for="City">City</label>
+        <input type="text" name="City" id="city" placeholder="City" size="30px" maxlength="100" ><br>
+        <p>Choose your shipping: </p>
+        <select name="Shipping" id="shipping"> 
+            <option value="Free shipping">Free shipping</option>
+            <option value="One day shipping">One day shipping</option>
+            <option value="Two day shipping">Two day shipping</option>
+        
+        </select>
+
+        <br>
+
+        <p>Choose your payment method:</p> <br>
+        <label for="Payment method">Paypal</label>
+        <input type="radio" name="paymentmethod" value="paypal">
+        <label for="Payment method">Debit card</label>
+        <input type="radio" name="paymentmethod" value="debit card">
+        <label for="Payment method">Credit card</label>
+        <input type="radio" name="paymentmethod" value="credit card">
+        <br> <br> <br>
+        <label for="comments">Comments: </label>
+        <textarea name="Comments" id="comments" rows="10" cols="25"></textarea> <br>
+        <label >Sign me up for email updates</label>
+        <input type="checkbox" name="email updates" checked = "checked ">
+        <label>Securely save my payment detail</label>
+        <input type="checkbox" name="save payment details" checked = "checked"> <br> <br>
+        <input type="button" value="Submit">
+
+    </form>
+</body>
+</html>
